@@ -5,3 +5,11 @@ class App {
 }
 
 window["app"] = new App();
+
+let kayak =
+
+
+  function isPalendrome(str) {
+    let output = ''
+
+  }
