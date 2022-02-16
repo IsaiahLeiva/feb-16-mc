@@ -14,10 +14,10 @@ palendromeWord('Kayak', 'Pickle', 'Racecar')
 function isPalendrome(str) {
   let output = ''
   let words = str.split('')
-  palendromeWord.forEach(word => {
-    if (word.length) {
-      output = word
-    }
-  })
-  return output
+  palendromeWord.forEach(word {
+    if(word.length = word.) {
+    output = word
+  }
+})
+return output
 }
