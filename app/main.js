@@ -6,10 +6,18 @@ class App {
 
 window["app"] = new App();
 
-let kayak =
 
 
-  function isPalendrome(str) {
-    let output = ''
+palendromeWord('Kayak', 'Pickle', 'Racecar')
 
-  }
+
+function isPalendrome(str) {
+  let output = ''
+  let words = str.split('')
+  palendromeWord.forEach(word => {
+    if (word.length) {
+      output = word
+    }
+  })
+  return output
+}
